@@ -47,7 +47,6 @@ def lambda_handler(event, context):
       
   except Exception as e:
     print('ERROR', e)
-    action = 'none'
 
   return {
     'statusCode': 200,
